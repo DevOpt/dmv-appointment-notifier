@@ -13,7 +13,7 @@ You'll need:
 twilio_account_sid = '<twilio_account_sid>'
 twilio_auth_token = '<twilio_auth_token>'
 ```
-3. Get `messaging_service_sid` from Twilio phone number, and add your destination phone number and update `to`
+3. Get `messaging_service_sid` from Twilio phone number, and add your destination phone number and update the `to` field
 ```
 def send_alert_msg():
     twilio_client.messages.create(
